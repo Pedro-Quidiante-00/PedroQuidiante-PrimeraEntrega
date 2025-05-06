@@ -1,0 +1,182 @@
+/*CAMBIOS DE LA PAGINA EN GENERAL*/
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #1d1d1d; 
+}
+/*HEADER*/
+.header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: #272727;
+}
+/*IMAGEN DE LOGO DE PAGINA*/
+.header img{
+    margin-left:15px;
+    padding: 5px
+    
+}
+
+
+#carouselExample {
+    width: 80%; 
+    max-width: 2800vh; 
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 40px;
+}
+#carouselExample .carousel-item img {
+
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px;
+
+}
+#carouselExample .carousel-item video {
+
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px;
+
+}
+
+
+/*INFORMACION DE LA PAGINA_00*/
+.info_00 {
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px;
+    max-width: auto ;
+}
+.img-juego img{
+    width: 600px;
+}
+
+
+/*INFORMACION DE LA PAGINA_01*/
+.info_01 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px;
+    
+}
+
+/*INFORMACION DE LA PAGINA_02*/
+.info_02 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px;
+}        
+.contenedor-de-mapas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tarjeta {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*INFORMACION DE LA PAGINA_03*/
+.info_03 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px; 
+}
+/*INFORMACION DE LA PAGINA_04*/
+.info_04 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px;
+}
+/*INFORMACION DE LA PAGINA_05*/
+.info_05 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px;  
+}
+/*INFORMACION DE LA PAGINA_06*/
+.info_06 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px; 
+}
+/*INFORMACION DE LA PAGINA_07*/
+.info_07 {
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 10px; 
+}
+.info_07 img {
+    width: 700px;
+}
+
+.titulo_00 {
+    color: #dadada;
+    font-family: Verdana, Geneva;
+    margin: 10px;
+    padding: 10px;
+}
+
+.desc_00{
+    color: #dadada;
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 20px;
+    text-align: justify;
+}
+.img_00{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: #1d1d1d 0px 0px 10px;
+}
+.negrita{
+    font-weight: bold;
+
+}
+    /*FOOTER DE LA PAGINA*/
+.footer {
+    position: static;
+    top: 100%;
+    padding: 10px;
+    align-items: center;
+    background-color: #272727;
+}
+.titulof_00{
+    color: #dadada;
+    font-family: Verdana, Geneva, Tahoma;
+
+    size: 10px;
+}
+
